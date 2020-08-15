@@ -90,7 +90,7 @@ img.header__logo {
 }
 
 .header__text--area .header__subtitle {
-  color: #5b5858;
+  color: hsl(201, 11%, 66%); /* ayebravo: Changed the color */
   width: 64%; /*I'm considering using a line break. You could give it a try*/
   line-height: 1.6;
   text-align: center;
