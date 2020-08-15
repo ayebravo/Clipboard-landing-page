@@ -24,6 +24,7 @@ body {
 .workflow h4 {
   font-size: 1.8rem;
   color: hsl(210, 10%, 33%);
+  text-align: center;
 }
 
 .workflow h5 {
@@ -37,6 +38,7 @@ body {
 .workflow p {
   font-size: 0.9rem;
   color: hsl(201, 11%, 66%);
+  text-align: center;
 }
 
 .row.d-flex.ml-1 p {
@@ -174,5 +176,14 @@ button {
   .header__btn--1 {
     width: 100%;
     margin-bottom: 1em;
+  }
+
+  .workflow {
+    max-width: 100%;
+  }
+
+  .workflow .headline {
+    max-width: 70%;
+    margin: 35px auto;
   }
 }
