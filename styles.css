@@ -1,3 +1,5 @@
+/* Styles by ayebravo */
+
 body {
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
@@ -9,6 +11,40 @@ body {
 }
 
 .section4a {
+  background-color: #f5f6f8;
+}
+
+/* Main area */
+
+.workflow {
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.workflow h4 {
+  font-size: 1.8rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.workflow h5 {
+  font-size: 1.3rem;
+}
+
+#blacklist {
+  margin-top: -8px;
+}
+
+.workflow p {
+  font-size: 0.9rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.row.d-flex.ml-1 p {
+  line-height: 30px;
+  text-align: center;
+}
+
+.sub-section {
   background-color: #f5f6f8;
 }
 
@@ -36,7 +72,7 @@ img.header__logo {
   grid-area: logo;
   margin: 0 auto;
   height: 40%;
-  margin-block-start: 6em; /*This is a logical value which also means margin-top*/
+  margin-top: 6em;
 }
 
 .header__text--area {
