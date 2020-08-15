@@ -183,6 +183,8 @@ button {
     margin-bottom: 1em;
   }
 
+  /* Styling added by ayebravo */
+
   .workflow {
     max-width: 100%;
   }
@@ -190,5 +192,14 @@ button {
   .workflow .headline {
     max-width: 70%;
     margin: 35px auto;
+  }
+
+  .logo-companies {
+    margin-top: 60px;
+    margin-bottom: 200px;
+  }
+
+  .logo-companies .col-12 {
+    margin-bottom: 90px;
   }
 }
