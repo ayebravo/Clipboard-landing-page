@@ -39,6 +39,8 @@ img.header__logo {
 .header__text--area .header__title{
 	text-align: center;
 	font-weight: 600;
+	font-size: 2rem;
+	line-height: 1.6;
 }
 
 div.header__button {
