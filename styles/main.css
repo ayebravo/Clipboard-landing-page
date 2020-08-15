@@ -1,8 +1,57 @@
 /* Css styles reset*/
-
 * {
 	margin: 0;
 	padding:0;
 	box-sizing: border-box;
 }
 
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-size: 18px;
+}
+
+/* styles by adeleke5140 for the header section*/
+header {
+	width: 100%;
+	background-image: url('../images/bg-header-desktop.png');
+	background-size: cover;
+	display: grid;
+	grid-template-areas: 
+		"logo"
+		"text"
+		"cta";
+	grid-template-rows: 1fr auto;
+}
+
+img.header__logo {
+	grid-area: logo;
+	margin: 0 auto;
+	height:40%;
+	margin-block-start: 6em;/*This is a logical value which also means margin-top*/
+}
+
+.header__text--area {
+	grid-area: text;
+	margin: 0 auto;
+}
+
+.header__text--area .header__title{
+	text-align: center;
+	font-weight: 600;
+}
+
+div.header__button {
+	grid-area: cta;
+}
+
+
+.attribution {
+ 	font-size: 11px; 
+ 	text-align: center;
+  }
+
+
+.attribution a { 
+	color: hsl(228, 45%, 44%);
+ }
