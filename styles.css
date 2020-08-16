@@ -53,6 +53,22 @@ body {
 
 .sub-section {
   background-color: #f5f6f8;
+  color: hsl(210, 10%, 33%);
+  padding-top: 20px;
+}
+
+.sub-section .text {
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.sub-section .logo {
+  max-height: 45%;
+  padding-top: 20px;
+}
+
+.social-media {
+  margin-right: 20px;
 }
 
 /* Css styles reset*/
