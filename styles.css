@@ -55,6 +55,7 @@ body {
   background-color: #f5f6f8;
   color: hsl(210, 10%, 33%);
   padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .sub-section .text {
@@ -69,6 +70,55 @@ body {
 
 .social-media {
   margin-right: 20px;
+}
+
+.clipboard-ios-mac {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.clipboard-ios-mac h2 {
+  color: #50555b;
+  font-weight: 600;
+}
+
+.clipboard-ios-mac p {
+  font-size: 19px;
+  color: hsl(201, 11%, 66%);
+  max-width: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.buttons-bottom {
+  margin-top: 50px;
+  font-size: 17px;
+}
+
+.bottom-btn-1,
+.bottom-btn-2 {
+  padding: 20px 50px;
+  font-size: 19px;
+}
+
+.bottom-btn-1 {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 5px 10px 18px #ccc8c8;
+}
+.bottom-btn-2 {
+  background: hsl(233, 100%, 69%);
+  box-shadow: 5px 10px 18px #ccc8c8;
+}
+
+.bottom-btn-1:hover,
+.bottom-btn-2:hover {
+  cursor: pointer;
+}
+
+.col-btn {
+  margin-right: -70px;
+  margin-left: 30px;
 }
 
 /* Css styles reset*/
@@ -155,9 +205,11 @@ button {
 
 .header__btn--1:hover {
   letter-spacing: 0.5px;
+  cursor: pointer; /* Added by aye */
 }
 .header__btn--2:hover {
   letter-spacing: 0.5px;
+  cursor: pointer; /* Added by aye */
 }
 
 /*media queries for header section*/
@@ -217,5 +269,50 @@ button {
 
   .logo-companies .col-12 {
     margin-bottom: 90px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .col-logo {
+    margin-bottom: -30px;
+  }
+
+  .col-12.col-md-4.text,
+  .col-12.col-md-2.text {
+    line-height: 60px;
+  }
+
+  .key-links {
+    text-align: center;
+  }
+
+  .social-media {
+    margin: 30px 70px;
+  }
+
+  .social-media-icon {
+    width: 20%;
+    padding: 15px 20px;
+    float: none !important;
+  }
+
+  .sub-section .logo {
+    max-height: 50%;
+  }
+
+  .clipboard-ios-mac {
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto 150px;
+  }
+
+  .clipboard-ios-mac p {
+    max-width: 92.5%;
+  }
+
+  .bottom-btn-1 {
+    margin-right: 67px;
   }
 }
