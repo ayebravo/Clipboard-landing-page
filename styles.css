@@ -133,32 +133,25 @@ header {
   width: 100%;
   background-image: url("../images/bg-header-desktop.png");
   background-size: cover;
-  display: grid;
-  grid-template-areas:
-    "logo"
-    "text"
-    "cta";
-  grid-template-rows: 1fr auto;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 img.header__logo {
-  grid-area: logo;
   margin: 0 auto;
-  height: 40%;
-  margin-top: 6em;
+  height: 70px;
+  margin-top: 4em;
 }
 
 .header__text--area {
-  grid-area: text;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  margin-top: 2.5rem;
 }
 
 .header__text--area .header__title {
   text-align: center;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.6;
 }
 
@@ -230,6 +223,14 @@ button {
 /*mobile devices*/
 
 @media only screen and (max-width: 480px) {
+  .header__text--area .header__title {
+    font-size: 2rem;
+  }
+
+  .header__text--area {
+    margin-top: 2rem;
+  }
+
   .header__text--area .header__subtitle {
     width: inherit;
     left: 0;
