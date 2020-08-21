@@ -91,37 +91,51 @@ body {
   margin-top: 20px;
 }
 
+/* Styles specific for buttons in bottom section */
+
 .buttons-bottom {
   margin-top: 50px;
-  font-size: 17px;
-}
-
-.bottom-btn-1,
-.bottom-btn-2 {
-  padding: 20px 50px;
-  font-size: 19px;
-}
-
-.bottom-btn-1 {
-  background-color: hsl(171, 66%, 44%);
-  box-shadow: 5px 10px 18px #ccc8c8;
-}
-.bottom-btn-2 {
-  background: hsl(233, 100%, 69%);
-  box-shadow: 5px 10px 18px #ccc8c8;
-}
-
-.bottom-btn-1:hover,
-.bottom-btn-2:hover {
-  cursor: pointer;
 }
 
 .col-btn {
-  margin-right: -70px;
+  margin-right: -87px;
   margin-left: 30px;
 }
 
+/* Global classes for buttons (top and bottom) by ayebravo */
+
+.main__btn {
+  padding: 20px 50px;
+  font-size: 19px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 18px #ccc8c8;
+}
+
+.main__btn.btn--1 {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.main__btn.btn--2 {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.btn--1:hover,
+.btn--2:hover {
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+/* Style created by adeleke5140, modified by ayebravo */
+button {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 1.6em;
+  transition: all 0.4s ease 0s;
+}
+
 /* Css styles reset*/
+
 * {
   margin: 0;
   padding: 0;
@@ -129,6 +143,7 @@ body {
 }
 
 /* styles by adeleke5140 for the header section*/
+
 header {
   width: 100%;
   background-image: url("../images/bg-header-desktop.png");
@@ -166,9 +181,7 @@ img.header__logo {
   font-size: 0.9rem;
 }
 
-/*styles for the buttons */
-
-/*Personally, I'd prefer to use SCSS. There's a bunch of repititive declarations :( */
+/*specific style for the buttons in the header section */
 
 div.header__btn {
   grid-area: cta;
@@ -176,33 +189,9 @@ div.header__btn {
   margin-top: 1.5em;
 }
 
-button {
-  border: none;
-  color: #fff;
-  font-weight: 600;
-  border-radius: 1.6em;
-  padding: 0.7em 1.5em;
-  transition: all 0.4s ease 0s;
-}
-
-.header__btn--1 {
-  margin-right: 1em;
-  background-color: hsl(171, 66%, 44%);
-  box-shadow: 5px 10px 18px #ccc8c8;
-}
-
-.header__btn--2 {
-  background: hsl(233, 100%, 69%);
-  box-shadow: 5px 10px 18px #ccc8c8;
-}
-
-.header__btn--1:hover {
-  letter-spacing: 0.5px;
-  cursor: pointer; /* Added by aye */
-}
-.header__btn--2:hover {
-  letter-spacing: 0.5px;
-  cursor: pointer; /* Added by aye */
+/* Added by ayebravo */
+.btn-top {
+  margin-right: 20px;
 }
 
 /*media queries for header section*/
@@ -241,15 +230,22 @@ button {
   }
 
   .header__btn {
-    width: 80%;
     display: flex;
     flex-direction: column;
-    width: 80%;
   }
 
-  .header__btn--1 {
-    width: 100%;
+  .btn-top {
     margin-bottom: 1em;
+  }
+
+  /* Added by ayebravo */
+  .main__btn {
+    width: 96%;
+    padding: 20px 69px;
+  }
+
+  .header__btn .btn--2 {
+    margin-top: 15px;
   }
 
   /* Styling added by ayebravo */
@@ -313,7 +309,12 @@ button {
     max-width: 92.5%;
   }
 
-  .bottom-btn-1 {
+  .col-btn .btn--1 {
     margin-right: 67px;
+    margin-left: -24px;
+  }
+
+  .buttons-bottom .btn--2 {
+    margin-top: -25px;
   }
 }
