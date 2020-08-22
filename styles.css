@@ -224,7 +224,7 @@ div.header__btn {
 .product__info--subtitle {
   font-size: 1rem;
   width: 64%;
-  color: hsl(201deg 10% 42%);
+  color: hsl(201, 11%, 66%);
   line-height: 1.6;
   text-align: center;
 }
