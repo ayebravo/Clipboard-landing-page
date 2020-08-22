@@ -299,6 +299,7 @@ h3 {
   
   .product__showcase picture{
     flex-basis: 0 0 100%;
+    margin: 0 auto;
     
   }
   .product__showcase--sub{
@@ -344,6 +345,7 @@ h3 {
     flex-flow: column wrap;
     justify-content: center;
     margin-left: 4%;
+    text-align: center;
   }
 
   .product__showcase picture {
