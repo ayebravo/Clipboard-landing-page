@@ -310,6 +310,10 @@ h3 {
 /*mobile devices*/
 
 @media only screen and (max-width: 480px) {
+  body{
+    overflow-x:hidden;
+  }
+  
   .header__text--area .header__title {
     font-size: 2rem;
   }
