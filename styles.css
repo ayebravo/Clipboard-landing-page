@@ -372,13 +372,15 @@ h3 {
   }
 
   .product__showcase--sub > h3 {
-    margin-left: 2%;
+    margin: 0 auto;
   }
 
   .product__showcase--sub > p {
     color: hsl(201, 11%, 66%);
     font-size: 0.9rem;
     padding: 0 1em;
+    width:100%;
+    margin-top: 1em;;
   }
 
   .product__showcase--2 > p {
