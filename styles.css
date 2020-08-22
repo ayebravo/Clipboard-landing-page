@@ -225,7 +225,7 @@ div.header__btn {
 .product__info--subtitle {
   font-size: 1rem;
   width: 64%;
-  color: hsl(201deg 10% 42%);
+  color: hsl(201, 11%, 66%);
   line-height: 1.6;
   text-align: center;
 }
@@ -303,12 +303,16 @@ h3 {
 
   .product__showcase picture {
     flex-basis: 0 0 100%;
+    margin: 0 auto;
+    
+
   }
   .product__showcase--sub {
     margin-left: 4%;
     flex-basis: 0 0 68%;
   }
 }
+
 
 /*mobile devices*/
 
@@ -352,6 +356,7 @@ h3 {
     flex-flow: column wrap;
     justify-content: center;
     margin-left: 4%;
+    text-align: center;
   }
 
   .product__showcase picture {
