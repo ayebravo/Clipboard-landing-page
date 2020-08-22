@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-size: 18px;
   font-family: "Bai Jamjuree", sans-serif;
@@ -143,7 +142,6 @@ button {
   transition: all 0.4s ease 0s;
 }
 
-
 /* styles by adeleke5140 for the header section*/
 
 header {
@@ -174,14 +172,20 @@ img.header__logo {
 }
 
 .header__subtitle {
-  color: hsl(201deg 10% 42%); /* ayebravo: Changed the color */
+  /* color: hsl(201deg 10% 42%);*/
   width: 64%; /*I'm considering using a line break. You could give it a try*/
-  line-height: 1.6;
+  /* line-height: 1.6; */
   text-align: center;
   margin-top: 1em;
   position: relative;
-  left: 9.5em;
-  font-size: 0.9rem;
+  /* left: 9.5em; */
+  /* font-size: 0.9rem; */
+
+  /* Added by ayebravo */
+  font-size: 1.1rem;
+  line-height: 38px;
+  margin: 0 auto;
+  color: hsl(201, 11%, 66%);
 }
 
 /*specific style for the buttons in the header section */
@@ -195,7 +199,6 @@ div.header__btn {
 .btn-top {
   margin-right: 20px;
 }
-
 
 /*styles for the remaining two sections*/
 .product__info {
@@ -211,17 +214,17 @@ div.header__btn {
   align-items: center;
 }
 
-.product__info--title{
+.product__info--title {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color:#50555b;
+  color: #50555b;
 }
 
-.product__info--subtitle{
+.product__info--subtitle {
   font-size: 1rem;
   width: 64%;
-  color:hsl(201deg 10% 42%);
+  color: hsl(201deg 10% 42%);
   line-height: 1.6;
   text-align: center;
 }
@@ -232,7 +235,7 @@ div.header__btn {
   margin-top: 2em;
 }
 
-.product__showcase picture{
+.product__showcase picture {
   display: block;
   max-width: 100%;
   margin-right: 2%;
@@ -249,7 +252,7 @@ h3 {
 }
 
 .product__showcase--sub > p {
-  color:hsl(201deg 10% 42%);
+  color: hsl(201deg 10% 42%);
   margin-bottom: 3em;
 }
 
@@ -264,16 +267,16 @@ h3 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #50555b;;
+  color: #50555b;
 }
 
 .product__showcase--2 > p {
-  color:hsl(201deg 10% 42%);
+  color: hsl(201deg 10% 42%);
   text-align: center;
 }
 
 .product__showcase--2 img {
-  display:block;
+  display: block;
   max-width: 100%;
 }
 
@@ -291,30 +294,32 @@ h3 {
     padding: 0 1em;
   }
 
-  .product__showcase{
+  .product__showcase {
     flex-flow: column wrap;
-    width:100vw;
+    width: 100vw;
     justify-content: center;
   }
-  
-  .product__showcase picture{
+
+  .product__showcase picture {
     flex-basis: 0 0 100%;
     margin: 0 auto;
     
+
   }
-  .product__showcase--sub{
+  .product__showcase--sub {
     margin-left: 4%;
     flex-basis: 0 0 68%;
   }
 }
 
+
 /*mobile devices*/
 
 @media only screen and (max-width: 480px) {
-  body{
-    overflow-x:hidden;
+  body {
+    overflow-x: hidden;
   }
-  
+
   .header__text--area .header__title {
     font-size: 2rem;
   }
@@ -332,6 +337,11 @@ h3 {
     padding: 1em;
   }
 
+  /* Added by ayebravo */
+  .header__subtitle {
+    max-width: 90%;
+  }
+
   .header__btn {
     display: flex;
     flex-direction: column;
@@ -341,7 +351,7 @@ h3 {
     margin-bottom: 1em;
   }
 
-  .product__showcase{
+  .product__showcase {
     flex-flow: column wrap;
     justify-content: center;
     margin-left: 4%;
@@ -353,23 +363,21 @@ h3 {
     margin: 0 auto;
   }
 
-  .product__showcase--sub >  h3 {
-   margin-left: 2%;
+  .product__showcase--sub > h3 {
+    margin-left: 2%;
   }
 
   .product__showcase--sub > p {
-    color:hsl(201, 11%, 66%);
-    font-size: .9rem;
+    color: hsl(201, 11%, 66%);
+    font-size: 0.9rem;
     padding: 0 1em;
   }
 
   .product__showcase--2 > p {
-    color:hsl(201, 11%, 66%);
-    font-size: .9rem;
-    padding:0 2em;
+    color: hsl(201, 11%, 66%);
+    font-size: 0.9rem;
+    padding: 0 2em;
   }
-
-
 
   /* Added by ayebravo */
   .main__btn {
