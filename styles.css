@@ -315,8 +315,15 @@ h3 {
 
   }
   .product__showcase--sub {
-    margin-left: 4%;
-    flex-basis: 0 0 68%;
+   margin-left: 4%;
+  }
+
+  .product__showcase--sub > * {
+    margin:0 auto;
+    text-align:center;
+  }
+  .product__showcase--sub > p{
+    margin-top:1em;
   }
 }
 
