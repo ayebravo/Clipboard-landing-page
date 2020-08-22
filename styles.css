@@ -101,13 +101,14 @@ body {
 
 /* Styles specific for buttons in bottom section */
 
-.buttons-bottom {
-  margin-top: 50px;
-}
-
 .col-btn {
+  padding-top: 0 !important;
   margin-right: -87px;
   margin-left: 30px;
+}
+
+.col-btn-right {
+  padding-top: 0 !important;
 }
 
 /* Global classes for buttons (top and bottom) by ayebravo */
@@ -464,5 +465,9 @@ h3 {
 
   .buttons-bottom .btn--2 {
     margin-top: -25px;
+  }
+
+  .col-btn-right {
+    padding-top: 1.5rem !important;
   }
 }
