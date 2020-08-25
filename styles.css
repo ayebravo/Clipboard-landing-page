@@ -14,6 +14,10 @@ body {
   overflow: none;
 }
 
+.container {
+  max-width: 100%;
+}
+
 .attribution {
   font-size: 16px;
 }
@@ -243,7 +247,7 @@ div.header__btn {
   margin-right: 8%;
 }
 
-.product__showcase--sub > *{
+.product__showcase--sub > * {
   flex-basis: 0 0 auto;
   width: 80%;
 }
@@ -311,22 +315,19 @@ h3 {
   .product__showcase picture {
     flex-basis: 0 0 100%;
     margin: 0 auto;
-    
-
   }
   .product__showcase--sub {
-   margin-left: 4%;
+    margin-left: 4%;
   }
 
   .product__showcase--sub > * {
-    margin:0 auto;
-    text-align:center;
+    margin: 0 auto;
+    text-align: center;
   }
-  .product__showcase--sub > p{
-    margin-top:1em;
+  .product__showcase--sub > p {
+    margin-top: 1em;
   }
 }
-
 
 /*mobile devices*/
 
@@ -386,8 +387,8 @@ h3 {
     color: hsl(201, 11%, 66%);
     font-size: 0.9rem;
     padding: 0 1em;
-    width:100%;
-    margin-top: 1em;;
+    width: 100%;
+    margin-top: 1em;
   }
 
   .product__showcase--2 > p {
@@ -398,7 +399,7 @@ h3 {
 
   /* Added by ayebravo */
   .main__btn {
-    width: 96%;
+    width: 97%;
     padding: 20px 69px;
   }
 
